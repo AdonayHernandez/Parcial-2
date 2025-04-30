@@ -19,3 +19,14 @@ Antes de iniciar, asegúrate de tener instalado lo siguiente:
    ```bash
    git clone https://github.com/AdonayHernandez/Parcial-2.git
    cd parcial-2
+
+# Instalar dependencias de PHP y Node.js
+composer install
+npm install
+
+# Copiar archivo de entorno y generar la clave de aplicación
+cp .env.example .env
+php artisan key:generate
+
+# Ejecutar migraciones y seeders
+php artisan migrate --seed
