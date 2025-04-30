@@ -22,7 +22,7 @@ Antes de iniciar, asegúrate de tener instalado lo siguiente:
 
 # Instalar dependencias de PHP y Node.js
 - composer install
-- npm install
+
 
 # Copiar archivo de entorno y generar la clave de aplicación
 - cp .env.example .env
