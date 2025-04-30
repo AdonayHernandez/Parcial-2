@@ -1,12 +1,21 @@
-Instalar dependencias:
-composer install
+#  Sistema de Gestión Hospitalaria – Parcial 2 (Diseño de Bases de Datos)
 
-Configurar el ambiente:
-cp .env.example .env
-php artisan key:generate
+Este proyecto corresponde al segundo parcial de la asignatura **Diseño de Bases de Datos**
+##  Requisitos Previos
 
-Configurar la base de datos:
-php artisan migrate --seed
+Antes de iniciar, asegúrate de tener instalado lo siguiente:
 
-# Parcial-2
-Apartado para subir el parcial N-2 DBD
+- PHP >= 8.1
+- Composer
+- Laravel >= 10
+- MySQL o MariaDB
+
+---
+
+##  Instalación del Proyecto
+
+1. **Clonar el repositorio (si aplica)**
+
+   ```bash
+   git clone https://github.com/AdonayHernandez/Parcial-2.git
+   cd parcial-2
