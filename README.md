@@ -29,4 +29,4 @@ Antes de iniciar, asegúrate de tener instalado lo siguiente:
 - php artisan key:generate
 
 # Ejecutar migraciones y seeders
--php artisan migrate --seed
+- php artisan migrate --seed
