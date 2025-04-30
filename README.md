@@ -8,7 +8,7 @@ Antes de iniciar, asegúrate de tener instalado lo siguiente:
 - PHP >= 8.1
 - Composer
 - Laravel >= 10
-- MySQL o MariaDB
+- MySQL
 
 ---
 
