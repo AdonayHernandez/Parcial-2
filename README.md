@@ -21,12 +21,12 @@ Antes de iniciar, asegúrate de tener instalado lo siguiente:
    cd parcial-2
 
 # Instalar dependencias de PHP y Node.js
-composer install
-npm install
+- composer install
+- npm install
 
 # Copiar archivo de entorno y generar la clave de aplicación
-cp .env.example .env
-php artisan key:generate
+- cp .env.example .env
+- php artisan key:generate
 
 # Ejecutar migraciones y seeders
-php artisan migrate --seed
+-php artisan migrate --seed
